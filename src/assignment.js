@@ -26,7 +26,6 @@ for (let i = 0; i < arrayOfNumbers.length; i++)
 
 
 }
-// console.log(sumOfNumbers(arrayOfNumbers));
 
 assignment.sumOfNumbers = sumOfNumbers;
 /**
@@ -56,7 +55,6 @@ function countEvenNumbers(arrayOfNumbers) {
         return evenCount
        
 }
-// console.log(countEvenNumbers(arrayOfNumbers))
 
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -83,8 +81,7 @@ function celsiusToFahrenheit(arrayOfNumbers){
     let celsius = arrayOfNumbers.map(array => Math.trunc( array * 9/5 + 32)) 
     return celsius
   
-}
-// console.log(celsiusToFahrenheit(arrayOfNumbers));  
+}  
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
